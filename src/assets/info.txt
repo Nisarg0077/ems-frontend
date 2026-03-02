@@ -1,0 +1,7 @@
+Theme Name: EMS Pro Dashboard
+Design Style: Modern, Minimal & Professional
+Primary Color: #7C3AED (violet-600)
+Accent Color: #FACC15 (yellow-400)
+Background: Neutral gray tones with white content cards
+Font: Inter / Sans-serif
+UI Library: Tailwind CSS

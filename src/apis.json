@@ -1,0 +1,14 @@
+[
+    {
+      "api_emplpyee": {
+            "api_count_employees": "http://localhost:5000/count-emp",
+            "api_employee_list": "http://localhost:5000/api/employeelist",
+            "api_count_active_employees": "http://localhost:5000/countempstatus",
+            "api_info_employee": "http://localhost:5000/api/info/employee/"
+        },
+       "api_department" : {
+            "api_count_department": "http://localhost:5000/count-dept",
+            "api_department_list": "http://localhost:5000/api/departmentlist"
+       } 
+    }
+]
