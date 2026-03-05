@@ -9,7 +9,6 @@ type Employee = {
   position?: string;
   hire_date?: string;
   status?: string;
-  // ... other fields
 };
 
 type FilterState = {

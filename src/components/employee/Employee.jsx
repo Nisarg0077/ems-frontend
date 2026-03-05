@@ -5,6 +5,7 @@ import apis from '../../apis.json';
 import Loader from '../Loader';
 import { useNavigate } from 'react-router-dom';
 import { useFilteredEmployees } from '../hooks/useFilteredEmployees';
+import Button from '../ui/Button';
 
 
 const Employee = () => {
@@ -39,7 +40,7 @@ const Employee = () => {
         console.error("Error fetching employees:", err);
         setEmployees([]);
     } finally {
-        setLoading(false); // Always stop loading regardless of success/fail
+        setLoading(false); 
     }
   }
 
@@ -58,6 +59,11 @@ const Employee = () => {
     setselectedEmployeeStatus(event.target.value);
   }
 
+  const handleAddEmployeeClick = () => {
+    navigate('/employee/addemployee');
+    
+  }
+
 
   useEffect(() => {
     fetchEmployees();
@@ -66,9 +72,14 @@ const Employee = () => {
   if (loading) return <Loader />;
 
   return (
-    <div className='p-4 '>
-      <div className='p-2 m-1'>
+    <div className='h-svh p-4 '>
+      <div className='p-2 m-1 flex justify-between'>
         <h1 className="text-2xl font-bold">All Employees List</h1>
+
+        <div className='p-2'>
+          {/* <button className=' border-2 border-violet-600 p-2 rounded-md font-bold bg-blue-950  hover:bg-violet-600 hover:border-white'>Add Employee</button> */}
+          <Button btnName={'Add Employee'} onClick={handleAddEmployeeClick}/>
+        </div>
       </div>
 
       {/* Table Section */}

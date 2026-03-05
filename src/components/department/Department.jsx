@@ -71,7 +71,7 @@ const Department = () => {
             <tr>
               <th className="px-6 py-3">
                 <div className='p-1'>
-                  Name
+                  Department Name
                 </div>
                 <div>
                    <select 
@@ -112,86 +112,6 @@ const Department = () => {
                     />
                     </div>
                 </th>
-              {/* <th className="px-6 py-3">
-                <div className='p-1'>
-                Department
-
-                </div>
-                <div>
-
-                  <select 
-                    className='
-                      border border-blue-600 
-                      rounded-md 
-                      p-2 
-                      text-white
-                      cursor-pointer
-                    ' 
-                    name="department"
-                  >
-                    <option className='bg-black' value="none">none</option>
-                    {
-                      departments.length > 0 ? (
-                        departments.map((dept, index) => (
-                          <option className='bg-black' value={dept.department}>{dept.department}</option>
-                        ))
-                      ):("Not found")
-                    }
-                  </select>
-                
-                </div>  
-              </th> */}
-              {/* <th className="px-6 py-3">
-                <div className='p-1'>
-                Position
-                </div>
-                <div>
-
-                  <select 
-                    className='
-                      border border-blue-600 
-                      rounded-md 
-                      p-2 
-                      text-white
-                      cursor-pointer
-                    ' 
-                    name="Position"
-                  >
-                    <option className='bg-black' value="none">none</option>
-                    {
-                      employees.length > 0 ? (
-                        employees.map((emp, index) => (
-                          <option className='bg-black' value={emp.position}>{emp.position}</option>
-                        ))
-                      ):("Not found")
-                    }
-                  </select>
-                
-                </div> 
-              </th> */}
-              
-              {/* <th className="px-6 py-3">
-                <div className='p-1'>
-                Status
-                </div>
-                <div>
-
-                  <select 
-                    className='
-                      border border-blue-600 
-                      rounded-md 
-                      p-2 
-                      text-white
-                      cursor-pointer
-                    ' 
-                    name="Status"
-                  >
-                    <option className='bg-black' value="none">none</option>
-                    <option className='bg-black' value="Active">Active</option>
-                    <option className='bg-black' value="Inactive">Inactive</option>
-                  </select>
-                
-                </div> </th> */}
               <th className="px-6 py-3 text-center">Actions</th>
             </tr>
           </thead>

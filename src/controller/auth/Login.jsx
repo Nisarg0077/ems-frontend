@@ -63,38 +63,6 @@ export default function Login() {
   }
 
   return (
-    // <div className="login flex justify-center align-middle">
-    //   <div className="login-frm border rounded border-violet-600 mt-56 p-6">
-    //     <h1 className="text-center text-3xl font-bold">LogIn Page</h1>
-    //     <form onSubmit={handleSubmit}>
-    //       <div className="frm-div p-8 pb-0 pt-1">
-    //         <input
-    //           type="text"
-    //           placeholder="Username"
-    //           className="font-bold text-xl rounded m-2 p-1"
-    //           onChange={(e) => setUser(e.target.value)}
-    //           required
-    //         />
-    //         <input
-    //           type="password"
-    //           placeholder="Password"
-    //           className="font-bold text-xl rounded p-1 m-2"
-    //           onChange={(e) => setPassword(e.target.value)}
-    //           required
-    //         />
-    //         <button type="submit" className="btn text-center border-4 font-bold p-2 m-2 w-24">
-    //           Login
-    //         </button>
-
-    //         <Link className="underline text-yellow-500" to="/register">
-    //           don't have an account?
-    //         </Link>
-    //       </div>
-    //     </form>
-    //   </div>
-    // </div>
-
-
      <div className="min-h-screen flex items-center justify-center bg-gray-950 relative overflow-hidden">
       {/* Background Gradient Orbs */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-violet-700/40 blur-3xl rounded-full"></div>
