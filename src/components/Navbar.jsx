@@ -3,7 +3,7 @@ import { Bell } from "lucide-react";
 
 export default function Navbar({ user }) {
   return (
-    <div className="w-full h-16 bg-gray-900 border-b border-gray-800 flex items-center justify-between px-6">
+    <div className="sticky top-0 w-full z-50 bg-gray-900 border-b border-gray-800 flex items-center justify-between px-6 py-4">
       <h2 className="text-lg font-semibold text-gray-100 tracking-wide">
         Welcome, <span className="text-violet-400">{user?.username}</span>
       </h2>

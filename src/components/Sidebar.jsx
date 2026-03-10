@@ -19,7 +19,7 @@ export default function Sidebar() {
   //   }
   // };
   return (
-    <div className="h-svh w-64 bg-gray-900 border-r border-gray-800 flex flex-col justify-between">
+    <div className="h-svh w-60 bg-gray-900 border-r border-gray-800 flex flex-col justify-between">
       <div>
         <div className="p-6 py-4 border-b border-gray-800">
           <h1 className="text-2xl font-bold bg-gradient-to-r from-violet-400 to-indigo-400 bg-clip-text text-transparent">

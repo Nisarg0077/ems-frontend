@@ -72,8 +72,8 @@ const Employee = () => {
   if (loading) return <Loader />;
 
   return (
-    <div className='h-svh p-4 '>
-      <div className='p-2 m-1 flex justify-between'>
+    <div className='p-4 '>
+      <div className='p-2 m-1 flex justify-between items-center'>
         <h1 className="text-2xl font-bold">All Employees List</h1>
 
         <div className='p-2'>

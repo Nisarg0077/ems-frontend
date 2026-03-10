@@ -9,6 +9,7 @@ import Employee from "./components/employee/Employee";
 import Department from "./components/department/Department";
 import ViewEmpInfo from "./components/employee/ViewEmpInfo";
 import AddDataForm from "./components/ui/AddDataForm";
+import AddEmployeeData from "./components/employee/AddEmployeeData";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />
             <Route path="/employees" element={<Employee/>} />
-            <Route path="/employee/addemployee" element={<AddDataForm/>} />
+            <Route path="/employee/addemployee" element={<AddEmployeeData/>} />
             <Route path="/emp/:id" element={<ViewEmpInfo/>} />
             <Route path="/department" element={<Department />} />
           </Route>
